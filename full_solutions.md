@@ -1,7 +1,7 @@
 # O'Reilly SQL Training with Danny Ma
-## Topic: Cryptocurrency price/sales data (CTEs, window functions, table joins)
+Topic: Cryptocurrency price/sales data (CTEs, window functions, table joins)
 
-### 1. What are the `market_date`, `price`, `volume`, and `price_rank` values for the days with the top 5 highest price values for each ticker in the trading.prices table?
+## 1. What are the `market_date`, `price`, `volume`, and `price_rank` values for the days with the top 5 highest price values for each ticker in the trading.prices table?
 
     * The `price_rank` column is the ranking for price values for each ticker with rank = 1 for the highest value.
     * Return the output for Bitcoin followed by Ethereum, each in price rank order.
