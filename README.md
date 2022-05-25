@@ -115,5 +115,7 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 ![image](https://user-images.githubusercontent.com/64455045/170351895-10ce61f1-586b-4d4e-8648-77253129522e.png)
 
+<br/>
+
 **[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#7-for-this-question-we-will-generate-a-single-table-output-which-solves-a-multi-part-problem-about-the-dollar-cost-average-of-btc-purchases)**
 
