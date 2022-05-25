@@ -1,10 +1,10 @@
 # O'Reilly SQL Training with Danny Ma
 Topic: Cryptocurrency price/sales data (CTEs, window functions, table joins)
 
-## 1. What are the `market_date`, `price`, `volume`, and `price_rank` values for the days with the top 5 highest price values for each ticker in the trading.prices table?
+### 1. What are the `market_date`, `price`, `volume`, and `price_rank` values for the days with the top 5 highest price values for each ticker in the trading.prices table?
 
-    * The `price_rank` column is the ranking for price values for each ticker with rank = 1 for the highest value.
-    * Return the output for Bitcoin followed by Ethereum, each in price rank order.
+* The `price_rank` column is the ranking for price values for each ticker with rank = 1 for the highest value.
+* Return the output for Bitcoin followed by Ethereum, each in price rank order.
 
 ```sql
 WITH ranked_crypto AS(
@@ -32,10 +32,9 @@ ORDER BY ticker, price_rank
 ;
 ```
 
+### 2. Calculate a 7 day rolling average for the price and volume columns in the trading.prices table for each ticker.
 
-2. Calculate a 7 day rolling average for the price and volume columns in the trading.prices table for each ticker.
-
-    * Return only the first 10 days of August, 2021.
+* Return only the first 10 days of August, 2021.
 
 ```sql
 WITH rolling_cte AS (
@@ -77,9 +76,9 @@ ORDER BY
 ;
 ```
 
-3. Calculate the monthly cumulative volume traded for each ticker in 2020
+### 3. Calculate the monthly cumulative volume traded for each ticker in 2020
 
-    * Sort the output by ticker in chronological order with the month_start as the first day of each month.
+* Sort the output by ticker in chronological order with the month_start as the first day of each month.
 
 ```sql
 -- transform string volume to numeric, calculate monthly totals
@@ -119,11 +118,11 @@ ORDER BY ticker, month_start
 ;
 ```
 
-4. Calculate the daily percentage change in volume for each ticker in the trading.prices table
+### 4. Calculate the daily percentage change in volume for each ticker in the trading.prices table
 
-    * Percentage change can be calculated as (current - previous) / previous
-    * Multiply the percentage by 100 and round the value to 2 decimal places
-    * Return data for the first 10 days of August 2021
+* Percentage change can be calculated as (current - previous) / previous
+* Multiply the percentage by 100 and round the value to 2 decimal places
+* Return data for the first 10 days of August 2021
 
 ```sql
 -- First, convert the volume to numeric with conditional logic
@@ -168,12 +167,10 @@ ORDER BY ticker, market_date
 ;
 ```
 
-### Cryptocurrency price/sales/people data (JOINs)
+### 5. Which top 3 mentors have the most Bitcoin quantity?
 
-1. Which top 3 mentors have the most Bitcoin quantity?
-
-    * Use INNER JOIN
-    * Return the first_name of the mentors and sort the output from highest to lowest total_quantity
+* Use INNER JOIN
+* Return the first_name of the mentors and sort the output from highest to lowest total_quantity
 
 ```sql
 WITH quant_cte AS (
@@ -200,10 +197,10 @@ LIMIT 3
 ;
 ```
 
-2. Which market_date values which have fewer than 5 transactions?
+### 6. Which market_date values which have fewer than 5 transactions?
 
-    * Use LEFT JOIN
-    * Sort the output in reverse chronological order.
+* Use LEFT JOIN
+* Sort the output in reverse chronological order.
 
 ```sql
 WITH count_cte AS (
@@ -225,9 +222,9 @@ ORDER BY market_date DESC
 ;
 ```
 
-3. For this question, we will generate a single table output which solves a multi-part problem about the dollar cost average of BTC purchases.
+### 7. For this question, we will generate a single table output which solves a multi-part problem about the dollar cost average of BTC purchases.
 
-    * Use multiple table joins
+* Use multiple table joins
     
     1. What is the dollar cost average (btc_dca) for all Bitcoin purchases by region for each calendar year?
 
@@ -244,7 +241,7 @@ ORDER BY market_date DESC
         * Calculate the yearly percentage change in DCA for each region to 2 decimal places
         * This calculation is (current - previous) / previous
     
-    * Finally, order the output by region and year_start columns.
+* Finally, order the output by region and year_start columns.
 
 ```sql
 -- First, calculate dollar cost average
