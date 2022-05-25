@@ -48,6 +48,7 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 ![image](https://user-images.githubusercontent.com/64455045/170350607-3b200426-8af5-430e-add4-e5d00d9342aa.png)
 
+[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#1-what-are-the-market_date-price-volume-and-price_rank-values-for-the-days-with-the-top-5-highest-price-values-for-each-ticker-in-the-tradingprices-table)
 
 2. What are the 7 day rolling averages for the price and volume columns in the trading.prices table for each ticker?
 
@@ -55,13 +56,19 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 ![image](https://user-images.githubusercontent.com/64455045/170350782-39c023f5-7c7b-43e5-be51-2f3ddb556df4.png)
 
+[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#2-calculate-a-7-day-rolling-average-for-the-price-and-volume-columns-in-the-tradingprices-table-for-each-ticker)
+
 3. What is the monthly cumulative volume traded for each ticker in 2020?
 
 ![image](https://user-images.githubusercontent.com/64455045/170350899-7314c323-6baa-4db4-a6a8-89c5d6f07287.png)
 
+[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#3-calculate-the-monthly-cumulative-volume-traded-for-each-ticker-in-2020)
+
 4. What is the daily percentage change in volume for each ticker in the trading.prices table?
 
 &emsp;&emsp;* Return only results for the first 10 days of August, 2021
+
+[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#4-calculate-the-daily-percentage-change-in-volume-for-each-ticker-in-the-tradingprices-table)
 
 ![image](https://user-images.githubusercontent.com/64455045/170350396-53531853-d175-4a58-9645-4aed87f16b0b.png)
 
@@ -69,9 +76,13 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 ![image](https://user-images.githubusercontent.com/64455045/170351337-184e06a4-54d8-432b-9ae8-fd8daeecff19.png)
 
+[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#5-which-top-3-mentors-have-the-most-bitcoin-quantity)
+
 6. Which market_date values have fewer than 5 transactions?
 
 ![image](https://user-images.githubusercontent.com/64455045/170351581-4a49ba6c-bfbb-410f-8fc1-d013a1bec08c.png)
+
+[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#6-which-market_date-values-which-have-fewer-than-5-transactions)
 
 7. In a single table output, display:    
     1. What is the dollar cost average (btc_dca) for all Bitcoin purchases by region for each calendar year?
@@ -79,4 +90,6 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
     3. What is the dollar cost average yearly percentage change for each region?
 
 ![image](https://user-images.githubusercontent.com/64455045/170351895-10ce61f1-586b-4d4e-8648-77253129522e.png)
+
+[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#7-for-this-question-we-will-generate-a-single-table-output-which-solves-a-multi-part-problem-about-the-dollar-cost-average-of-btc-purchases)
 
