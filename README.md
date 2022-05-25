@@ -62,7 +62,7 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 <br/>
 
-[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#2-calculate-a-7-day-rolling-average-for-the-price-and-volume-columns-in-the-tradingprices-table-for-each-ticker)
+**[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#2-calculate-a-7-day-rolling-average-for-the-price-and-volume-columns-in-the-tradingprices-table-for-each-ticker)**
 
 <br/><br/>
 
@@ -72,7 +72,7 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 <br/>
 
-[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#3-calculate-the-monthly-cumulative-volume-traded-for-each-ticker-in-2020)
+**[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#3-calculate-the-monthly-cumulative-volume-traded-for-each-ticker-in-2020)**
 
 <br/><br/>
 
@@ -84,7 +84,7 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 <br/>
 
-[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#4-calculate-the-daily-percentage-change-in-volume-for-each-ticker-in-the-tradingprices-table)
+**[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#4-calculate-the-daily-percentage-change-in-volume-for-each-ticker-in-the-tradingprices-table)**
 
 <br/><br/>
 
@@ -94,7 +94,7 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 <br/>
 
-[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#5-which-top-3-mentors-have-the-most-bitcoin-quantity)
+**[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#5-which-top-3-mentors-have-the-most-bitcoin-quantity)**
 
 <br/><br/>
 
@@ -104,7 +104,7 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 <br/>
 
-[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#6-which-market_date-values-which-have-fewer-than-5-transactions)
+**[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#6-which-market_date-values-which-have-fewer-than-5-transactions)**
 
 <br/><br/>
 
@@ -115,5 +115,5 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 ![image](https://user-images.githubusercontent.com/64455045/170351895-10ce61f1-586b-4d4e-8648-77253129522e.png)
 
-[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#7-for-this-question-we-will-generate-a-single-table-output-which-solves-a-multi-part-problem-about-the-dollar-cost-average-of-btc-purchases)
+**[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#7-for-this-question-we-will-generate-a-single-table-output-which-solves-a-multi-part-problem-about-the-dollar-cost-average-of-btc-purchases)**
 
