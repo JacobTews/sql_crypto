@@ -2,7 +2,7 @@
 
 ### My good friend, Bitzi McCoyne, sauntered over to where I was grilling at our neighborhood backyard BBQ.
 
-She looked excited. "Jacob," she whispered, "do you know anything about this cryptocurrency craze?"
+She looked excited. "Jacob," she said, "do you know anything about this cryptocurrency craze?"
 
 "A little," I replied, cautiously.
 
@@ -35,18 +35,16 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 | ticker |	market_date |	price |	volume |	price_rank |
 | --- | --- | --- | --- | --- |
-| BTC |	2021-04-13 |	63540.9	| 126.56K	| 1 |
-| BTC |	2021-04-15 | 63216	| 76.97K |	2 |
-| BTC |	2021-04-14 | 62980.4 |	130.43K	| 3 |
-| BTC |	2021-04-16 | 61379.7 |	136.85K	| 4 |
-| BTC |	2021-03-13 | 61195.3 |	134.64K	| 5 |
-| ETH |	2021-05-11 | 4167.78 |	1.27M	| 1 |
-| ETH |	2021-05-14 | 4075.38 |	2.06M	| 2 |
-| ETH |	2021-05-10 | 3947.9	| 2.70M	| 3 |
-| ETH |	2021-05-09 | 3922.23	| 1.94M	| 4 |
-| ETH |	2021-05-08 | 3905.55	| 1.34M	| 5 |
-
-![image](https://user-images.githubusercontent.com/64455045/170350607-3b200426-8af5-430e-add4-e5d00d9342aa.png)
+| BTC |	2021-04-13 |	$63540.9	| 126.56K	| 1 |
+| BTC |	2021-04-15 | $63216	| 76.97K |	2 |
+| BTC |	2021-04-14 | $62980.4 |	130.43K	| 3 |
+| BTC |	2021-04-16 | $61379.7 |	136.85K	| 4 |
+| BTC |	2021-03-13 | $61195.3 |	134.64K	| 5 |
+| ETH |	2021-05-11 | $4167.78 |	1.27M	| 1 |
+| ETH |	2021-05-14 | $4075.38 |	2.06M	| 2 |
+| ETH |	2021-05-10 | $3947.9	| 2.70M	| 3 |
+| ETH |	2021-05-09 | $3922.23	| 1.94M	| 4 |
+| ETH |	2021-05-08 | $3905.55	| 1.34M	| 5 |
 
 <br/>
 
@@ -58,8 +56,29 @@ She looked excited. "Jacob," she whispered, "do you know anything about this cry
 
 &emsp;&emsp;* Return only results for the first 10 days of August, 2021
 
-![image](https://user-images.githubusercontent.com/64455045/170350782-39c023f5-7c7b-43e5-be51-2f3ddb556df4.png)
-
+|	ticker	|	market_date	|	price	|	moving_avg_price	|	volume	|	moving_avg_volume
+|	--- |	--- |	--- |	--- |	--- |	--- |
+|	BTC	|	2021-08-01	|	$39,878.30 |	$39,469.96 |	80330	| 80330
+|	BTC	|	2021-08-02	|	$39,168.40 |	$39,942.13 |	74810	| 77570
+|	BTC	|	2021-08-03	|	$38,130.30 |	$40,048.84 |	260	| 51800
+|	BTC	|	2021-08-04	|	$39,736.90 |	$40,084.45 |	79220	| 58655
+|	BTC	|	2021-08-05	|	$40,867.20 |	$40,192.45 |	130600	| 73044
+|	BTC	|	2021-08-06	|	$42,795.40 |	$40,541.70 |	111930	| 79525
+|	BTC	|	2021-08-07	|	$44,614.20 |	$40,843.05 |	112840	| 84284.28571
+|	BTC	|	2021-08-08	|	$43,792.80 |	$41,122.94 |	105250	| 86905
+|	BTC	|	2021-08-09	|	$46,284.30 |	$41,923.69 |	117080	| 91498.75
+|	BTC	|	2021-08-10	|	$45,593.80 |	$42,726.86 |	80550	| 92216.25
+|	ETH	|	2021-08-01	|	$2,556.23 |	$2,368.62 |	1200000	| 1200000
+|	ETH	|	2021-08-02	|	$2,608.04 |	$2,420.90 |	970670	| 1085335
+|	ETH	|	2021-08-03	|	$2,506.65 |	$2,455.54 |	158450	| 776373.3333
+|	ETH	|	2021-08-04	|	$2,725.29 |	$2,508.67 |	1230000	| 889780
+|	ETH	|	2021-08-05	|	$2,827.21 |	$2,574.69 |	1650000	| 1041824
+|	ETH	|	2021-08-06	|	$2,889.43 |	$2,638.25 |	1060000	| 1044853.333
+|	ETH	|	2021-08-07	|	$3,158.00 |	$2,725.38 |	64840	| 904851.4286
+|	ETH	|	2021-08-08	|	$3,012.07 |	$2,785.37 |	1250000	| 947995
+|	ETH	|	2021-08-09	|	$3,162.93 |	$2,861.20 |	1440000	| 977995
+|	ETH	|	2021-08-10	|	$3,140.71 |	$2,927.79 |	1120000	| 996661.25
+|
 <br/>
 
 **[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#2-calculate-a-7-day-rolling-average-for-the-price-and-volume-columns-in-the-tradingprices-table-for-each-ticker)**
