@@ -157,7 +157,11 @@ She looked excited. "Jacob," she said, "do you know anything about this cryptocu
 
 5. Which 3 people currently (as of the most recent date in the database) hold the highest quantity of Bitcoin?
 
-![image](https://user-images.githubusercontent.com/64455045/170351337-184e06a4-54d8-432b-9ae8-fd8daeecff19.png)
+| first_name |	total_quantity |
+| --- | --- |
+| Nandita |	4160.21987 |
+| Leah |	4046.090897 |
+| Ayush |	3945.198083 |
 
 <br/>
 
@@ -167,7 +171,16 @@ She looked excited. "Jacob," she said, "do you know anything about this cryptocu
 
 6. Which market_date values have fewer than 5 transactions?
 
-![image](https://user-images.githubusercontent.com/64455045/170351581-4a49ba6c-bfbb-410f-8fc1-d013a1bec08c.png)
+| market_date	| transaction_count |
+| --- | --- |
+| 2021-08-29 | 0 |
+| 2021-08-28 | 0 |
+| 2021-07-17 | 3 |
+| 2021-01-06 | 4 |
+| 2020-01-17 | 4 |
+| 2019-07-15 | 4 |
+| 2019-06-14 | 3 |
+| 2018-10-20 | 4 |
 
 <br/>
 
@@ -180,7 +193,33 @@ She looked excited. "Jacob," she said, "do you know anything about this cryptocu
     2. What is the rank of each region each year?
     3. What is the dollar cost average yearly percentage change for each region?
 
-![image](https://user-images.githubusercontent.com/64455045/170351895-10ce61f1-586b-4d4e-8648-77253129522e.png)
+| year_start |	region |	btc_dca |	dca_ranking |	dca_percentage_change |
+| --- | --- | --- | --- | --- |
+| 2017-01-01	| Africa |	3987.626287 |	4 |	 |
+| 2018-01-01	| Africa |	7690.712833 |	3 |	92.86 |
+| 2019-01-01	| Africa |	7368.82038 |	4 |	-4.19 |
+| 2020-01-01	| Africa |	11114.12477 |	3 |	50.83 |
+| 2021-01-01	| Africa |	44247.21526 |	2 |	298.12 |
+| 2017-01-01	| Asia |	4002.938703 |	5 |	 |
+| 2018-01-01	| Asia |	7829.998857 |	4 |	95.61 |
+| 2019-01-01	| Asia |	7267.678553 |	1 |	-7.18 |
+| 2020-01-01	| Asia |	10759.62115 |	2 |	48.05 |
+| 2021-01-01	| Asia |	44570.90087 |	4 |	314.24 |
+| 2017-01-01	| Australia |	3982.331493 |	3 |	 |
+| 2018-01-01	| Australia |	7524.877929 |	1 |	88.96 |
+| 2019-01-01	| Australia |	7368.453742 |	3 |	-2.08 |
+| 2020-01-01	| Australia |	11413.90606 |	5 |	54.9 |
+| 2021-01-01	| Australia |	44866.30462 |	5 |	293.08 |
+| 2017-01-01	| India |	3680.764369 |	1 |	 |
+| 2018-01-01	| India |	8031.110232 |	5 |	118.19 |
+| 2019-01-01	| India |	7731.354536 |	5 |	-3.73 |
+| 2020-01-01	| India |	10333.48559 |	1 |	33.66 |
+| 2021-01-01	| India |	43793.71375 |	1 |	323.8 |
+| 2017-01-01	| United States | 3812.006322 |	2 |	 |
+| 2018-01-01	| United States | 7578.475104 |	2 |	98.81 |
+| 2019-01-01	| United States | 7368.166254 |	2 |	-2.78 |
+| 2020-01-01	| United States | 11123.66575 |	4 |	50.97 |
+| 2021-01-01	| United States | 44456.22416 |	3 |	299.65 |
 
 <br/>
 
