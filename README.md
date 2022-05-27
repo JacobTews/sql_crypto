@@ -29,6 +29,8 @@ She looked excited. "Jacob," she said, "do you know anything about this cryptocu
 
 (Original source: Danny Ma's SQL Simplified course)
 
+<br/>
+
 ## 💡 Questions answered:
 
 1. What are the `market_date`, `price`, `volume`, and `price_rank` values for the days with the top 5 highest price values for each ticker in the trading.prices table?
@@ -78,7 +80,7 @@ She looked excited. "Jacob," she said, "do you know anything about this cryptocu
 |	ETH	|	2021-08-08	|	$3,012.07 |	$2,785.37 |	1250000	| 947995
 |	ETH	|	2021-08-09	|	$3,162.93 |	$2,861.20 |	1440000	| 977995
 |	ETH	|	2021-08-10	|	$3,140.71 |	$2,927.79 |	1120000	| 996661.25
-|
+
 <br/>
 
 **[Full query here](https://github.com/JacobTews/sql_crypto/blob/main/full_solutions.md#2-calculate-a-7-day-rolling-average-for-the-price-and-volume-columns-in-the-tradingprices-table-for-each-ticker)**
