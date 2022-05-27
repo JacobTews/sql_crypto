@@ -23,11 +23,13 @@ She looked excited. "Jacob," she said, "do you know anything about this cryptocu
   * prices (3404 records; 8 columns: ticker, market_date, price, open, high, low, volume, change)
   * transactions (22918 records; columns: txn_id, member_id, ticker, txn_date, txn_type, quantity, percentage_fee, txn_time)
 
+<br/>
+
 &emsp;Entity Relationship Diagram (ERD):
 
 &emsp;&emsp;&emsp;<img src="https://github.com/JacobTews/sql_crypto/blob/5ec63c4ea883ba3eeb73634f65d44d1bb0d5cbd1/crypto-erd.png" width="500" height="500" alt="entity relationship diagram">
 
-(Original source: Danny Ma's SQL Simplified course)
+&emsp;&emsp;&emsp;(Original source: Danny Ma's SQL Simplified course)
 
 <br/>
 
