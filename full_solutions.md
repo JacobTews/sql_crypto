@@ -47,13 +47,17 @@ WITH rolling_cte AS (
       ORDER BY market_date
       ROWS BETWEEN 7 PRECEDING AND CURRENT ROW
     ) AS moving_avg_price
-    , CASE
+    , AVG(CASE
         WHEN RIGHT(volume, 1) = 'K'
           THEN LEFT(volume, LENGTH(volume) - 1)::NUMERIC * 1e3
         WHEN RIGHT(volume, 1) = 'M'
           THEN LEFT(volume, LENGTH(volume) - 1)::NUMERIC * 1e6
         ELSE 0
-      END AS cast_vol
+      END) OVER(
+        PARTITION BY ticker
+        ORDER BY market_date
+        ROWS BETWEEN 7 PRECEDING AND CURRENT ROW
+      ) AS moving_avg_volume
   FROM trading.prices
 )
 
@@ -63,11 +67,7 @@ SELECT
   , price
   , moving_avg_price
   , cast_vol AS volume
-  , AVG(cast_vol) OVER(
-    PARTITION BY ticker
-    ORDER BY market_date
-    ROWS BETWEEN 7 PRECEDING AND CURRENT ROW
-  ) AS moving_avg_volume
+  , moving_avg_volume
 FROM rolling_cte
 WHERE market_date BETWEEN '2021-08-01' AND '2021-08-10'
 ORDER BY
